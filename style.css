@@ -2,3 +2,15 @@ body{
     background-color: blue;
     color: green;
 }
+header{
+    background-color: blueviolet;
+    color: firebrick;
+}
+main{
+    background-color: cadetblue;
+
+}
+footer{
+    background-color: aquamarine;
+    color:black
+}
