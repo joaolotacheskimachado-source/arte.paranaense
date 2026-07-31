@@ -1,16 +1,21 @@
 body{
     background-color: blue;
     color: green;
+    font-family: Arial, sans-serif;
 }
 header{
     background-color: blueviolet;
     color: firebrick;
+    text-align: center;
+    padding: 30px;
 }
-main{
-    background-color: cadetblue;
+h1 {
+    font-size: 36px;
+   
+}
+
+h2 {
+    color: #6b2d5c;
 
 }
-footer{
-    background-color: aquamarine;
-    color:black;
-}
+
