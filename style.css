@@ -19,3 +19,19 @@ h2 {
 
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+nav {
+     margin-top: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    
+}
