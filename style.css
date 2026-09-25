@@ -1,58 +1,80 @@
 body{
-    background-color: blue;
-    color: green;
-    font-family: Arial, sans-serif;
+    background-color: rgb(#000000);
+    color: rgb(#9b0dd3);
+    font-family: arial, sans-serif;
+    margin: 0;
 }
 header{
-    background-color: blueviolet;
-    color: firebrick;
-    text-align: center;
-    padding: 30px;
+    background-color: #000107;
+    color: #e6e7e6;
+    text-align:center;
+    padding:  30px;
 }
-h1 {
+h1{
     font-size: 36px;
-   
 }
-
-h2 {
-    color: #6b2d5c;
-
+h2{
+    color:#FFEBE8;
 }
-
-p {
-    font-size: 18px;
+p{
+    font-size: 25px;
     line-height: 1.6;
-
 }
-
 nav {
-     margin-top: 20px;
-
+    margin-top: 20;
 }
-
 nav a {
-    color: white;
+    color: #ba97fa;
     text-decoration: none;
-    
+    background-color: #000000;
+    padding: 10px 15px;
+    border-radius:8px;
+    margin: 5px;
+    display: inline-block;
 }
-button {
-background-color: darkblue;
-color:darkred;
-border: none;
-padding: 10px 15px;
-border-radius: 8px;
-cursor: pointer;
+nav a:hover{
+    background-color: #FFFFFF;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+section{
+    background-color: hsl(289, 84%, 80%);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+img{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 12px;
+}
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 8px;
+}
+card{
+    background-color:#f3d9fa;
+    padding:15px;
+    margin:15px o;
+    border-left: 6px solid #9e4aff;
+    border-radius: 10px;
+}
+card h3{
+    margin-top: 0;
 
 }
-
-button:hover {
-background-color:limegreen;
-
+.card p{
+    margin-top: 0;
 }
-
-.curtir {
-display: block;
-width: fit-content;
-margin: 20px auto;
-
+footer{
+    background-color: #808080;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+margin-top: 30px;
 }
