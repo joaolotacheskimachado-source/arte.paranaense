@@ -1,25 +1,39 @@
-bbody {
-    background-color: #f7f9f6; 
-    color: #1c2b1e;            
+body {
+    background-color: #f7f9f6;
+    color: #1c2b1e;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
-header, footer {
-    background-color: #2b4c2f; 
+header {
+    background-color: #2b4c2f;
     color: #ffffff;
     text-align: center;
     padding: 30px;
 }
 
+h1 {
+    font-size: 36px;
+}
+
 h2 {
     color: #2b4c2f;
-    border-bottom: 2px solid #8ba888;
+    border-bottom: 2px solid #8ba887;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+
+}
+
+nav {
+    margin-top: 20px;
 }
 
 nav a {
     color: #ffffff;
-    background-color: #8c532b; 
+    background-color: #8c532b;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -31,16 +45,37 @@ nav a:hover {
     background-color: #a66538;
 }
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
 section {
     background-color: #ffffff;
     margin: 20px 0;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+img {
+width: 100%;
+max-width: 600px;
+display: block;
+margin: auto;
+border-radius: 12px;
+}
+
+
+figcaption {
+text-align: center;
+font-size: 14px;
+color: #555555;
+margin-top: 8px;
 }
 
 .card {
-    background-color: #eef4ed; 
+    background-color: #eef4ed;
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #2b4c2f;
